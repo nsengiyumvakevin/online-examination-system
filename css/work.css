@@ -1,0 +1,35 @@
+.top-nav{
+    display: inline-flex;
+    background-color: orangered;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    
+
+}
+.top-nav .links{
+    margin-left: 200px;
+    margin-top: 20px;
+
+}
+.top-nav .links a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    margin-top: 10px;
+
+}
+.top-nav .links img{
+    border-radius: 10px;
+    
+}
+.top-nav .links a:hover{
+    color: rgb(126, 125, 122);
+}

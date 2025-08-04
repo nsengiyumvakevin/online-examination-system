@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationpage</title>
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/signin.css">
+</head>
+<body>
+
+  <div class="mynav">
+    <img src="logo.PNG" alt="">
+    <p>EduCampus</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p>SIGN IN ></p>
+  </div>
+  <div class="div-container">
+  <div class="div">
+    <h2>Login </h2>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btn btn-warning">Login</button>
+    
+    <div id="id01" class="modal">
+      
+      <form class="modal-content animate" action="login.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required class="form-control">
+
+
+          
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required class="form-control">
+            
+          <button type="submit" class="l-btn">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- registration form -->
+
+<div class="div">
+<h2>Register </h2>
+
+    <button onclick="document.getElementById('m').style.display='block'" style="width:auto;" class="btn btn-warning">Register</button>
+    
+    <div id="m" class="mo">
+      
+      <form class="modal-co ani" action="login.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('m').style.display='none'" class="clo" title="Close Modal">&times;</span>
+          
+        </div>
+    
+        <div class="cont">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" style=" width: 800px;display: block;height: 50px;;" name="uname" required class="form-control">
+
+          <label for="psw"><b>Email</b></label>
+          <input type="password" placeholder="Enter Email" name="email" required class="form-control">
+          
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required class="form-control">
+            
+          <button type="submit" class="l-btn">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="cont" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('m').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var m = document.getElementById('m');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == m) {
+            m.style.display = "none";
+        }
+    }
+    </script>
+</div>
+</div>
+</body>
+</html>

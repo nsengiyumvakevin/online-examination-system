@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+     position: fixed;
+}
+.nav{
+    background-color:white;
+    height: 80px;
+    width: 1050px;
+    margin-top: 50px;
+    margin-left: 120px;
+    display: inline-flex;
+}
+.nav .logo{
+    height: 83px;
+}
+.search{
+    height: 80px;
+    width: 80px;
+    background-color: orangered;   
+}
+
+.nav .navlink {
+margin-right: 10px;
+margin-top: 30px;
+height: 80px;
+}
+.nav .navlink a{
+    color: black;
+    text-decoration: none;
+    padding: 1px 2px;
+   font-size: 16px;
+    
+}
+.text{
+    width: 350px;
+}
+.nav .navlink a:hover{
+    color: orangered;
+}
+.content{
+    /* background-color:blue ; */
+    height: 500px;
+    width: 100%;
+    display: inline-flex;
+}
+.word-content{
+    margin-top: 200px;
+    /* background-color: white; */
+    margin-left: 150px;
+    color: white;
+}
+.word-content p{
+    font-size: 20px;
+}
+.image{
+    width: 50%;
+    margin-right: 20px;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.button{
+    /* background-color: red; */
+    margin-left: 150px;
+}
+.button button{
+    border: 2px solid white;
+    height: 40px;
+    background-color: transparent;
+    color:orangered;
+    border-radius: 10px;
+}
+.button button:hover{
+    color: white;
+    background-color: orangered;
+}

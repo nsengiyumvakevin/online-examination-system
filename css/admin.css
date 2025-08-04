@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: #0a0a0a;
+  }
+  
+  input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 500px;
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:orangered;
+  }
+  
+  div.container {
+    border-radius: 5px;
+    background-color: #141414;
+    padding: 20px ;
+    color: aliceblue;
+  }
+  .container{
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 170px;
+  }
+  
